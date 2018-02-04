@@ -95,7 +95,7 @@ opacity: 0.7;
 /* end of title */
 /* about */
 #about {
-background-color: #8CC2B3;
+background-color: #e0ddb9;
 }
 #about a, #about a:hover {
     text-decoration: none;
@@ -117,7 +117,7 @@ background-position:center;
 background-repeat: no-repeat;
 background-size:cover;
 border-bottom: 600px solid transparent;
-border-left: 100px solid #8CC2B3;
+border-left: 100px solid #e0ddb9;
 }
 #about .box {
 display: flex;
