@@ -1,0 +1,245 @@
+body {
+    position: relative;
+ font-family: 'Open Sans', sans-serif;
+}
+.navbar a{
+   color: whitesmoke;
+}
+.navbar a:hover, 
+.navbar a:active {
+   color: #cccccc;
+}
+.transparent {
+background-color: rgba(0,0,0,0.5);
+}
+.navbar-toggler-icon {
+border: 5px solid black;
+padding: 10px;
+background-color: whitesmoke;
+border-radius: 3px;
+color: red;
+}
+.navbar-collapse {
+    background-color: rgba(0,0,0,0.5);
+}
+.navbar-brand {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.shrink{
+    height: 40px;
+  transition: all ease 2s;
+  background: black;
+}
+header {
+height: 100vh;
+background: url("landing.jpg");
+/*opacity: 0.9;*/
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+header p {
+    font-family: 'Kaushan Script', cursive; 
+    letter-spacing: 3px;
+}
+.blink {
+    color: #aaa;
+  animation: blink 0.6s infinite alternate;
+}
+@keyframes blink {
+  0% {opacity: 1;}
+  45% {opacity: 1;}
+  55% {opacity: 0;}
+  100% {opacity: 0;}
+}
+.banner-center {
+height: 100vh;
+color: whitesmoke;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.banner-underline {
+width: 200px;
+border: 3px solid whitesmoke;
+margin: 0px auto 20px auto;
+border-radius: 2px;
+}
+.banner-center a {
+font-size: 30px;
+margin: 0px auto;
+display: inline-block;
+border: 3px solid whitesmoke;
+color: whitesmoke;
+text-decoration: none;
+border-radius: 15px;
+}
+.banner-center a:hover, 
+.banner a:focus {
+color: black;
+background-color: whitesmoke;
+}
+/*end of banner*/
+/*title*/
+.title {
+margin: 20px 0px;
+}
+.title-underline {
+width: 150px;
+border: 3px solid red;
+margin: 0px auto 10px;
+border-radius: 2px;
+opacity: 0.7;
+}
+/* end of title */
+/* about */
+#about {
+background-color: #2D3142;
+}
+#about .pic {
+height: 600px;
+background: url("about.jpg");
+background-attachment: fixed;
+background-position:center;
+background-repeat: no-repeat;
+background-size:cover;
+border-bottom: 600px solid transparent;
+border-left: 100px solid #2D3142;
+}
+#about .box {
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+/*end of about */
+/* skills section */
+#skills {
+padding: 20px;
+color: #203142;
+margin-bottom: 10px;
+}
+#skills .fa {
+color: black;
+font-size: 100px;
+margin-bottom: 5px;
+}
+.skill{
+    font-family: 'Open-sans', sans-serif !important;
+}
+.skills-custom {
+    margin: 30px;
+    padding: 20px;
+    border: 3px solid #e9ecef;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.progress-invisible {
+    visibility: hidden;
+}
+/*@media only screen and (min-width: 768 px) {*/
+/*    .progress-invisible {*/
+/*        visibility: hidden;*/
+/*    }*/
+/*}*/
+.progress {
+height: 25px;
+border: 1px solid black;
+}
+
+.progress-bar {
+    background-color: black;
+}
+.progress-custom .progress-bar-custom {
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2.5s;
+}
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+/* end of skills */
+
+/* portfolio */
+.works-custom {
+    border: 3px solid #e9ecef;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 20px;
+    background-color: #fff;
+}
+#portfolio .fa {
+    color: black;
+font-size: 100px;
+margin-bottom: 5px;
+}
+.portfolio-link-custom {
+    opacity: 0.7;
+    text-decoration: none;
+    color: black;
+    
+}
+.portfolio-link-custom:hover{
+    opacity: 1;
+    text-decoration: none;
+    color: black;
+}
+/* end of portfolio */
+
+/* contact */
+#contact {
+padding: 40px;
+background-color: whitesmoke;
+}
+#contact .form-control {
+border-radius: 0px !important;
+font-size: 20px;
+}
+#contact button {
+background-color: lightblue;
+font-size: 24px;
+color: grey;
+margin-bottom: 20px;
+}
+#contact button:hover {
+background-color: lightgrey;
+}
+/* end of contact */ 
+/* footer section */
+#footer {
+padding: 20px;    
+color: whitesmoke;
+background-color: #353531;
+font-family: 'Kaushan Script', cursive;
+}
+#footer .title-underline {
+margin-bottom: 10px;
+}
+#footerwrk {
+    font-family: 'Open-sans', sans-serif !important;
+}
+#footer .footer-icons {
+font-size: 40px;
+padding-top: 10px;
+}
+#footer .footer-icons a {
+color: deepskyblue;
+text-decoration: none;
+}
+#footer .footer-icons a:hover {
+color: whitesmoke;
+}
+#footer .copyrights h3 {
+    font-weight: normal;
+    letter-spacing: 2px;
+color: #CED0CE;
+}
+/* end of footer */
+#thankyou_message {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
