@@ -20,7 +20,7 @@ border-radius: 3px;
 color: red;
 }
 .navbar-collapse {
-    background-color: rgba(0,0,0,0.5);
+    background-color: transparent;
 }
 .navbar-brand {
     font-family: 'Kaushan Script', cursive;
@@ -133,6 +133,7 @@ margin-bottom: 5px;
     border: 3px solid #e9ecef;
     background-color: #fff;
     border-radius: 5px;
+    color: #38393a;
 }
 .progress-invisible {
     visibility: hidden;
