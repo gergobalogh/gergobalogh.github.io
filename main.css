@@ -95,7 +95,19 @@ opacity: 0.7;
 /* end of title */
 /* about */
 #about {
-background-color: #2D3142;
+background-color: #8CC2B3;
+}
+#about a, #about a:hover {
+    text-decoration: none;
+}
+.quote-me {
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 18px;
+}
+#signature {
+    font-size: 25px;
+    font-family: 'Kaushan Script', cursive;
 }
 #about .pic {
 height: 600px;
@@ -105,7 +117,7 @@ background-position:center;
 background-repeat: no-repeat;
 background-size:cover;
 border-bottom: 600px solid transparent;
-border-left: 100px solid #2D3142;
+border-left: 100px solid #8CC2B3;
 }
 #about .box {
 display: flex;

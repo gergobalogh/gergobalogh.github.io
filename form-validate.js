@@ -1,3 +1,6 @@
+// Script from https://github.com/dwyl/html-form-send-email-via-google-script-without-server
+// Thank you goes to : https://github.com/dwyl
+
 function validEmail(email) { // see:
   var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
   return re.test(email);
@@ -96,5 +99,5 @@ function loaded() {
   // bind to the submit event of our form
   var form = document.getElementById('gform');
   form.addEventListener("submit", handleFormSubmit, false);
-};
+}
 document.addEventListener('DOMContentLoaded', loaded, false);

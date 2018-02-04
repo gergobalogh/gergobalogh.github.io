@@ -95,8 +95,12 @@ $(document).ready(function() {
 
     });
     
-    // Setting up scrollspy
+    // Setting up scrollspy which doesn't work cause I messed with bootstrap classes
     $('body').scrollspy({
         target: '#nav-scrollspy'
     });
 });
+
+
+// A shout-out to my awesome mentors from "The informal school of IT"!
+// You rock!!
