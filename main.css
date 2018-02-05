@@ -13,14 +13,13 @@ body {
 background-color: rgba(0,0,0,0.5);
 }
 .navbar-toggler-icon {
-border: 5px solid black;
+border: 3px solid whitesmoke;
 padding: 10px;
-background-color: whitesmoke;
 border-radius: 3px;
 color: red;
 }
 .navbar-collapse {
-    background-color: transparent;
+    background-color: rgba(0,0,0,0.5);
 }
 .navbar-brand {
     font-family: 'Kaushan Script', cursive;
@@ -150,11 +149,7 @@ margin-bottom: 5px;
 .progress-invisible {
     visibility: hidden;
 }
-/*@media only screen and (min-width: 768 px) {*/
-/*    .progress-invisible {*/
-/*        visibility: hidden;*/
-/*    }*/
-/*}*/
+
 .progress {
 height: 25px;
 border: 1px solid black;
