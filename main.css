@@ -109,7 +109,7 @@ background-color: #e0ddb9;
     font-family: 'Kaushan Script', cursive;
 }
 #about .pic {
-height: 600px;
+height: auto;
 background: url("about.jpg");
 background-attachment: fixed;
 background-position:center;
@@ -118,6 +118,7 @@ background-size:cover;
 border-bottom: 600px solid transparent;
 border-left: 100px solid #e0ddb9;
 }
+
 #about .box {
 display: flex;
 flex-direction: column;
@@ -206,13 +207,13 @@ border-radius: 0px !important;
 font-size: 20px;
 }
 #contact button {
-background-color: lightblue;
+background-color: #febf22;
 font-size: 24px;
-color: grey;
+color: #fff;
 margin-bottom: 20px;
 }
 #contact button:hover {
-background-color: lightgrey;
+background-color: #eca901;
 }
 /* end of contact */ 
 /* footer section */
