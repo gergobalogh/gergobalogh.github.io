@@ -18,7 +18,7 @@ padding: 10px;
 border-radius: 3px;
 color: red;
 }
-.navbar-collapse {
+.show {
     background-color: rgba(0,0,0,0.5);
 }
 .navbar-brand {
