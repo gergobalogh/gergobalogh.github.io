@@ -104,3 +104,5 @@ $(document).ready(function() {
 
 // A shout-out to my awesome mentors from "The informal school of IT"!
 // You rock!!
+
+// You too! Awesome job, Jack!
